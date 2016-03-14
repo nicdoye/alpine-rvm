@@ -5,7 +5,7 @@
 #
 
 # Pull base image
-FROM alpine-rvm-gcc
+FROM nicdoye/alpine-rvm-gcc
 
 RUN apk update && \
     apk upgrade
